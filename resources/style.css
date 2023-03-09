@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #4D4F62;
+    background-color: #F2F2F2;;
+
+}
+header{
+    text-align: center;
+    margin: 85px 32px 76px;
+}
+h1{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+}
+.light{
+    font-weight: 275;
+
+}
+.bold{
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+header p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    opacity: 0.5;
+} 
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 32px 72px;
+    gap: 24px;
+}
+.container{
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+}
+.content{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 28px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.content h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 1px;
+}
+.content p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    opacity: 0.5;
+    margin-bottom: 33px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+img{
+    max-width: 74px;
+}
+.one{
+    border-top: 3.55px solid #44D3D2;
+}
+.two{
+    border-top: 3.55px solid #EA5454;
+}
+.three{
+    border-top: 3.55px solid #FCAE4A;
+}
+.four{
+    border-top: 3.55px solid #549EF2;
+}
+
+@media only screen and (min-width: 375px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    header{
+        max-width: 540px;
+        margin-bottom: 64px;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 80px;
+    }
+    .container{
+        max-width: 350px;
+    }
+    .content{
+        margin: 32px;
+    }
+    .middle{
+        gap: 30px;
+    }
+    .content h3{
+        margin-bottom: 6px;
+    }
+    .content p{
+        max-width: 286px;
+        margin-bottom: 40px;
+    }
+    
+}
+
